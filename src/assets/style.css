@@ -1,0 +1,56 @@
+/* Tipografía y fondo */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  color: #42b883;
+}
+
+/* Links */
+a {
+  color: #42b883;
+}
+a:hover {
+  color: #67d3a0;
+  text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1b1b2f !important;
+}
+
+/* Cards generales */
+.card {
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #42b883;
+  border-color: #42b883;
+}
+.btn-primary:hover {
+  background-color: #67d3a0;
+  border-color: #67d3a0;
+}
+
+/* Skills hover */
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
